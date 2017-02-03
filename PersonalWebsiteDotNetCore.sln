@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5710D701-A4B5-40DE-9268-1B96EA3652E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{501D34EE-B0C7-41EA-8789-A56928EA2A6E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PersonalWebsiteDotNetCore", "src\PersonalWebsiteDotNetCore\PersonalWebsiteDotNetCore.xproj", "{EBCF5DB4-65C6-48CB-B834-ACF8A1FB3DB6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PersonalWebsiteDotNetCore.Tests", "src\PersonalWebsiteDotNetCore.Tests\PersonalWebsiteDotNetCore.Tests.xproj", "{1E6F5110-E7D3-4ABD-9C2D-F9A00521FD45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBCF5DB4-65C6-48CB-B834-ACF8A1FB3DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCF5DB4-65C6-48CB-B834-ACF8A1FB3DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCF5DB4-65C6-48CB-B834-ACF8A1FB3DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCF5DB4-65C6-48CB-B834-ACF8A1FB3DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6F5110-E7D3-4ABD-9C2D-F9A00521FD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6F5110-E7D3-4ABD-9C2D-F9A00521FD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6F5110-E7D3-4ABD-9C2D-F9A00521FD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6F5110-E7D3-4ABD-9C2D-F9A00521FD45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBCF5DB4-65C6-48CB-B834-ACF8A1FB3DB6} = {5710D701-A4B5-40DE-9268-1B96EA3652E8}
+		{1E6F5110-E7D3-4ABD-9C2D-F9A00521FD45} = {5710D701-A4B5-40DE-9268-1B96EA3652E8}
+	EndGlobalSection
+EndGlobal
