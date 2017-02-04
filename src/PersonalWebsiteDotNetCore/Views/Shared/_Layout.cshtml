@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using PersonalWebsiteDotNetCore.Controllers
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -18,9 +20,24 @@
     @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
 </head>
 <body>
+    
     <div class="container body-content">
+        <div class="masthead">
+            <ul class="nav nav-pills pull-right">
+                <li><a href="@Url.Action("Index")">Home</a></li>
+                <li><a href="@Url.Action("About")">Blog</a></li>
+                <li><a href="@Url.Action("Contact")">Contact</a></li>
+            </ul>
+            <h3 class="muted">Aakash Sham</h3>
+        </div>
+
         @RenderBody()
+        
+        <div class="footer">
+            <p>Last updated 03 Feb 2017</p>
+        </div>
     </div>
+    
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
