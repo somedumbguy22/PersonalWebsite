@@ -13,7 +13,7 @@ namespace PersonalWebsiteDotNetCore.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Blog()
         {
             ViewData["Message"] = "Your application description page.";
 
