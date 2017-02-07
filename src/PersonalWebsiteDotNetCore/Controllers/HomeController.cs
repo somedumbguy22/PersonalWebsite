@@ -33,3 +33,7 @@ namespace PersonalWebsiteDotNetCore.Controllers
         }
     }
 }
+
+//adding this comment at the end of this file to test my Jenkins server automated build process
+//this commit should trigger an automated build via a webhook I setup.
+//fingers crossed!
