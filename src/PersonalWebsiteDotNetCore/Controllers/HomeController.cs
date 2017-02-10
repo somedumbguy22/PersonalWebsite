@@ -20,6 +20,13 @@ namespace PersonalWebsiteDotNetCore.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            ViewData["Message"] = "About Me.";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
